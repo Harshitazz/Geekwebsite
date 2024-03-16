@@ -1,0 +1,133 @@
+.join-us-for1 {
+    align-self: stretch;
+    height: 56px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .about-us4 {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+  }
+  .gradient-underline-icon4 {
+    align-self: stretch;
+    height: 4px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    margin-top: -5px;
+  }
+  .section-heading4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .arrow-right-solid-1-icon1 {
+    height: 40px;
+    width: 36px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .contact-form1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xl) 0 var(--padding-4xl);
+    gap: var(--gap-lgi);
+    text-align: left;
+    font-size: var(--h3-desktop-size);
+  }
+  .join-us-for-exciting-group {
+    position: absolute;
+    top: 300px;
+    left: 444px;
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+  }
+  .feature-pill-frame,
+  .frame-icon2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 581px;
+    height: 269px;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .frame-icon2 {
+    left: 613px;
+    width: 213px;
+  }
+  .frame-icon3,
+  .frame-icon4,
+  .join-button-frame,
+  .location-card-container {
+    position: absolute;
+    top: 1px;
+    left: 858px;
+    width: 338px;
+    height: 433px;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .frame-icon4,
+  .join-button-frame,
+  .location-card-container {
+    top: 301px;
+    left: 0;
+    width: 336px;
+    height: 501px;
+  }
+  .frame-icon4,
+  .location-card-container {
+    top: 466px;
+    left: 368px;
+    height: 336px;
+  }
+  .frame-icon4 {
+    left: 736px;
+    width: 460px;
+  }
+  .frame-parent2 {
+    align-self: stretch;
+    height: 921px;
+    position: relative;
+    text-align: center;
+    font-size: var(--h5-desktop-size);
+    color: var(--color-white);
+    font-family: var(--h2-desktop);
+  }
+  @media screen and (max-width: 1050px) {
+    .join-us-for1 {
+      font-size: var(--font-size-7xl);
+    }
+    .about-us4 {
+      font-size: var(--font-size-32xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .join-us-for1 {
+      font-size: var(--font-size-lgi);
+    }
+    .about-us4 {
+      font-size: var(--font-size-19xl);
+    }
+  }
+  
