@@ -72,7 +72,10 @@ const DarkBackground = () => {
       </div>
       
     </div>
+    <div className="framecontainer">
     <Frame/>
+    </div>
+    
     </>
   );
 };

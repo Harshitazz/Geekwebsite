@@ -5,7 +5,15 @@
 p {
   margin: 0;
 }
-
+.framecontainer{
+  width: 100%;
+  background-color: aliceblue;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+}
 
 .sphere2 {
     position: absolute;
