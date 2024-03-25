@@ -396,7 +396,10 @@ p {
   }
   
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
+  .parent-frame{
+    visibility: hidden;
+  }
   .geek-room {
     font-size: 3rem;
     line-height: normal;
@@ -413,25 +416,22 @@ p {
     padding-bottom: var(--padding-36xl);
     box-sizing: border-box;
   }
-  .k {
-    font-size: var(--font-size-8xl);
+  .section-title{
+    height: auto;
+    justify-content: center;
   }
-  .active-members {
-    font-size: var(--font-size-lg);
+  .features{
+    display: inline;
+  }.features-pill{
+    justify-content: normal;
+    border-radius: 50px;
+    width: 60%;
   }
-  .b {
-    font-size: var(--font-size-8xl);
+  .feature,.feature1.feature2{
+    justify-content: center;
   }
-  .events-organized {
-    font-size: var(--font-size-lg);
-  }
-  .b1 {
-    font-size: var(--font-size-8xl);
-  }
-  .team-members {
-    font-size: var(--font-size-lg);
-  }
-  .dark-background {
-    gap: 18px 72px;
+  .feature-divider-icon{
+    visibility: hidden;
+    height: 1rem;
   }
 }
