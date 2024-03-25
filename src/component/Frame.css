@@ -238,12 +238,13 @@
   font-weight: 500;
 }
 .arrow-right-solid-1-icon2 {
-  background-color: aquamarine;
-  height: 30px;
-  width: 36px;
+  /* background-color: aquamarine; */
+  /* height: 30px;
+  width: 36px; */
   position: relative;
-  overflow: hidden;
+  
   flex-shrink: 0;
+  align-items: center;
 }
 
 

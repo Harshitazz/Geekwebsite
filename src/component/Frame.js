@@ -38,12 +38,15 @@ const Frame = () => {
               <div className="underline"></div></div>
               
             </div>
-            <img
+            <div
               className="arrow-right-solid-1-icon2"
               loading="lazy"
               alt=""
-              // src="/arrowrightsolid-1.svg"
-            />
+              >
+                <i class="fa-solid fa-arrow-right-long"></i>
+            </div>
+
+              
           </div>
 
 
