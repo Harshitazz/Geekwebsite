@@ -7,7 +7,7 @@ p {
 }
 .framecontainer{
   width: 100%;
-  background-color: aliceblue;
+  /* background-color: aliceblue; */
   height: 800px;
   display: flex;
   align-items: center;
@@ -251,18 +251,7 @@ p {
   gap: var(--gap-xl);
 }
 .features-pill {
-  /* flex: 1;
-  border-radius: var(--br-225xl);
-  background-color: var(--color-gray-200);
-  border: 3px solid var(--color-tomato);
-  box-sizing: border-box;
-  overflow: hidden;
-  flex-direction: column;
-  justify-content: center;
-  padding: var(--padding-lg) var(--padding-xl);
-  z-index: 2; */
   
-   
   
   box-sizing: border-box;
   
