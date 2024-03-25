@@ -7,6 +7,8 @@ import image2 from '../images/Screenshot 2024-03-03 195851.png';
 import image3 from '../logo.svg'
 import Carousel from "./Carousel";
 import Frame from "./Frame";
+import ContactForm from "./ContactForm";
+
 const DarkBackground = () => {
   const images = [image1,image2,image3];
   return (
@@ -75,7 +77,9 @@ const DarkBackground = () => {
     <div className="framecontainer">
     <Frame/>
     </div>
-    
+    <div className="framecontainer">    
+      <ContactForm/>
+    </div>
     </>
   );
 };

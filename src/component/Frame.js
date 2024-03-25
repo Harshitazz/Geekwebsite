@@ -1,5 +1,7 @@
 import React from "react";
 import "./Frame.css";
+import { NavLink } from "react-router-dom";
+
 
 const Frame = () => {
   return (
@@ -34,17 +36,27 @@ const Frame = () => {
           <div className="join-us-for2">Join us for exciting</div>
           <div className="header1">
             <div className="section-heading7">
-              <div className="about-us7">Events
+
+              <div >
+              <NavLink
+              exact
+              to="/events"
+              className="about-us7"
+            >
+              EVENTS
+            </NavLink>
               <div className="underline"></div></div>
-              
-            </div>
-            <div
+
+              <div
               className="arrow-right-solid-1-icon2"
               loading="lazy"
               alt=""
               >
                 <i class="fa-solid fa-arrow-right-long"></i>
             </div>
+              
+            </div>
+            
 
               
           </div>

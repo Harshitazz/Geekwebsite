@@ -216,8 +216,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-start;
-  width: 80%;
+  justify-content: center;
+  /* width: 80%; */
   text-align: left;
   font-size: var(--font-size-45xl);
 }
@@ -225,9 +225,8 @@
   
   flex: 1;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   padding: 0;
 }
 .about-us7 {
@@ -236,13 +235,17 @@
   position: relative;
   font-size: 2rem;
   font-weight: 500;
+  text-decoration: none;
+  color: aliceblue;
+
 }
 .arrow-right-solid-1-icon2 {
   /* background-color: aquamarine; */
   /* height: 30px;
   width: 36px; */
   position: relative;
-  
+  margin: 0px 5px;
+    
   flex-shrink: 0;
   align-items: center;
 }

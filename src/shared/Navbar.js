@@ -44,7 +44,7 @@ const Navbar = () => {
           <div className="nav-item2">
             <NavLink
               exact
-              to="/"
+              to="/achievement"
               className={
                 activeNavLink === "achievement" ? "home active" : "home"
               }
@@ -59,7 +59,7 @@ const Navbar = () => {
           <div className="nav-item3">
             <NavLink
               exact
-              to="/"
+              to="/contact"
               className={activeNavLink === "contact" ? "home active" : "home"}
               onClick={() => handleNavLinkClick("contact")}
             >
