@@ -14,7 +14,7 @@ const Frame = () => {
             loading="lazy"
             alt=""
             src={require("../images/Screenshot 2024-03-03 195851.png")}
-            style={{ width: 'calc(35.33% - 10px)', height: '300px' }} // Adjust the width here
+             // Adjust the width here
           />
           <img
             className="call-to-action1"
@@ -31,7 +31,7 @@ const Frame = () => {
             style={{ width: 'calc(41.33% - 10px)', height: '300px' }} // Adjust the width here
           />
           </div>
-          <div className="center-div " style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-60%, -70%)' }}>
+          <div className="center-div " >
           {/* Your content for the center div */}
           <div className="join-us-for2">Join us for exciting</div>
           <div className="header1">
