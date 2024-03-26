@@ -116,9 +116,65 @@
     font-family: var(--h2-desktop);
     padding: 10px;
   }
-  @media screen and (max-width: 450px) {
-    .nav-item-parent {
-      gap: 0 16px;
+  .burger-menu {
+    position: absolute;
+    right: 10px;
+    display: none; /* Hide burger menu by default on larger screens */
+    cursor: pointer;
+  }
+  
+  .burger-menu .burger-line {
+    width: 25px;
+    height: 3px;
+    background-color: #fbf9f9;
+    margin: 4px 0;
+  }
+
+  .side-drawer {
+    position: absolute;
+    z-index: 10;
+    top: -100%;
+    right: 0;
+    /* width: 100%; */
+    /* height: 100%; */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    transition: top 0.3s ease;
+  }
+  
+  .side-drawer.open {
+    top: 0; /* Show side drawer by setting top to 0 */
+  }
+  
+  .side-drawer-content {
+    padding: 20px;    padding: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    font-weight: 600;
+  }
+  
+  .side-drawer-content a {
+    display: block;
+    padding: 10px 0;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .side-drawer-content a:hover {
+    background-color: #f0f0f0;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .burger-menu {
+      display: block;
+      visibility: visible;
+    }
+  
+    .nav-items {
+      display: none; /* Hide navigation links by default on smaller screens */
     }
   }
+ 
   

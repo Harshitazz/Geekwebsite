@@ -3,10 +3,16 @@ import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const [activeNavLink, setActiveNavLink] = useState("home"); // Set "home" as default active NavLink
+  const [activeNavLink, setActiveNavLink] = useState("home");
+  const [showSideDrawer, setShowSideDrawer] = useState(false);
 
   const handleNavLinkClick = (navItem) => {
     setActiveNavLink(navItem);
+    setShowSideDrawer(false); // Close side drawer after clicking a link
+  };
+
+  const toggleSideDrawer = () => {
+    setShowSideDrawer(!showSideDrawer);
   };
 
   return (
@@ -19,6 +25,13 @@ const Navbar = () => {
       />
       <div className="parent-frame">
         <div className="nav-item-parent">
+
+        <div className="burger-menu" onClick={toggleSideDrawer}>
+            <div className="burger-line"></div>
+            <div className="burger-line"></div>
+            <div className="burger-line"></div>
+          </div>
+
           <div className="nav-item">
             <NavLink
               exact
@@ -69,6 +82,24 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+      <div className={`side-drawer ${showSideDrawer ? 'open' : ''}`}>
+        <div className="side-drawer-content">
+          <NavLink exact to="/" onClick={() => handleNavLinkClick("home")}>
+            HOME
+          </NavLink>
+          <NavLink exact to="/about" onClick={() => handleNavLinkClick("about")}>
+            ABOUT
+          </NavLink>
+          <NavLink exact to="/achievement" onClick={() => handleNavLinkClick("achievement")}>
+            ACHIEVEMENT
+          </NavLink>
+          <NavLink exact to="/contact" onClick={() => handleNavLinkClick("contact")}>
+            CONTACT
+          </NavLink>
+        </div>
+      </div>
+
     </header>
   );
 };
