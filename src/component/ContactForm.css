@@ -7,12 +7,13 @@ p {
 }
 
 .group-3 {
-    background-color: aliceblue;
-    border-radius: 16px;
+  background-color: rgb(255, 255, 255, 0.15);
+  border-radius: 16px;
   position: relative;
   width: 948.41px;
   height: 345px;
   box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .contact-form {
   position: absolute;
@@ -30,15 +31,15 @@ p {
   box-shadow: 0px 0px 113.5px rgba(0, 0, 0, 0.5);
 }
 .group-892 {
-    width: 336px;
-    height: 100%;
-    padding: 118px 77px 137px;
-    /* border-top-right-radius: 16px; */
-    /* border-bottom-right-radius: 16px; */
-    box-sizing: border-box;
-    position: absolute;
-    right: 0px;
-    background-color: rgba(0, 0, 0, 0.6);
+  width: 336px;
+  height: 100%;
+  padding: 118px 77px 137px;
+  /* border-top-right-radius: 16px; */
+  /* border-bottom-right-radius: 16px; */
+  box-sizing: border-box;
+  position: absolute;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .ask-aquestion {
   display: flex;
@@ -108,12 +109,20 @@ p {
   height: 100%;
   box-sizing: border-box;
 }
-.first-name {
-  color: rgba(160, 160, 160, 1);
+.info {
+  color: rgb(225, 220, 220);
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(160, 160, 160, 1);
   font-size: 16px;
   line-height: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
+  width: 100%;
+}
+
+.info::placeholder {
+  color: rgb(193, 191, 191);
 }
 
 .frame-11 {
@@ -125,14 +134,6 @@ p {
   height: 100%;
   box-sizing: border-box;
 }
-.last-name {
-  color: rgba(160, 160, 160, 1);
-  font-size: 16px;
-  line-height: 16px;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-}
-
 .frame-12 {
   display: flex;
   flex-direction: column;
@@ -142,14 +143,6 @@ p {
   width: 100%;
   box-sizing: border-box;
 }
-.email {
-  color: rgba(160, 160, 160, 1);
-  font-size: 16px;
-  line-height: 16px;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-}
-
 .frame-14 {
   display: flex;
   flex-direction: column;
@@ -159,14 +152,6 @@ p {
   width: 100%;
   box-sizing: border-box;
 }
-.message {
-  color: rgba(160, 160, 160, 1);
-  font-size: 16px;
-  line-height: 16px;
-  font-family: Inter, sans-serif;
-  font-weight: 400;
-}
-
 .frame {
   position: absolute;
   top: 272px;
@@ -176,12 +161,21 @@ p {
 }
 
 .submit {
-  position: absolute;
-  top: 283px;
-  left: 81px;
   color: rgba(255, 255, 255, 1);
   font-size: 16px;
   line-height: 16px;
   font-family: Inter, sans-serif;
   font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  border-radius: 4px;
+  /* height: 50px !important;
+   */
+  padding: 12px 34px;
+}
+
+@media screen and (max-width: 870px) {
+  .group-892 {
+    display: none;
+  }
 }
