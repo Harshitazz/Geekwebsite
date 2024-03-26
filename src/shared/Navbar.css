@@ -140,10 +140,19 @@
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     transition: top 0.3s ease;
+    border-radius: 20px;
+  
+  background: 
+    linear-gradient( rgb(16, 15, 15), rgb(10, 10, 10)), /* main background */
+    linear-gradient( rgba(241, 90, 34, 1), rgba(0, 172, 180, 1)) border-box,
+    linear-gradient(rgba(241, 90, 34, 1), rgba(0, 172, 180, 1)) border-box;
+  background-origin: border-box;
+  background-clip: content-box, border-box, border-box;
+  border: 4px solid transparent;
   }
   
   .side-drawer.open {
-    top: 0; /* Show side drawer by setting top to 0 */
+    top: 4rem; 
   }
   
   .side-drawer-content {
@@ -152,17 +161,18 @@
     font-size: 15px;
     font-family: Inter, sans-serif;
     font-weight: 600;
+    
   }
   
   .side-drawer-content a {
     display: block;
     padding: 10px 0;
-    color: #000;
+    color: #fbf6f6;
     text-decoration: none;
   }
   
   .side-drawer-content a:hover {
-    background-color: #f0f0f0;
+    color: #34e6f7;
   }
 
 
