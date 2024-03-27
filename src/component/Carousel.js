@@ -4,38 +4,14 @@ import './Carousel.css'; // External CSS file for styling
 const Carousel = ({ images, interval }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const containerRef = useRef(null);
-  const duplicatedImages = useRef([...images]); // Initialize with original images
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % duplicatedImages.current.length);
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, interval);
 
     return () => clearInterval(intervalId);
-  }, [interval]);
-
-  useEffect(() => {
-    const handleTransitionEnd = () => {
-      if (containerRef.current && currentIndex === duplicatedImages.current.length - 1) {
-        containerRef.current.style.transition = 'none';
-        setCurrentIndex(0);
-        setTimeout(() => {
-          containerRef.current.style.transition = '';
-          duplicatedImages.current = [...duplicatedImages.current, ...images]; // Append original images
-        });
-      }
-    };
-
-    if (containerRef.current) {
-      containerRef.current.addEventListener('transitionend', handleTransitionEnd);
-    }
-
-    return () => {
-      if (containerRef.current) {
-        containerRef.current.removeEventListener('transitionend', handleTransitionEnd);
-      }
-    };
-  }, [currentIndex, images]);
+  }, [images, interval]);
 
   return (
     <div className="carousel-container">
@@ -44,11 +20,10 @@ const Carousel = ({ images, interval }) => {
           ref={containerRef}
           className="slides-container"
           style={{
-            transform: `translateX(-${currentIndex * 100}%)`,
-            transition: 'transform 0.5s ease'
+            transform: `translateX(-${currentIndex * 100}%)`
           }}
         >
-          {duplicatedImages.current.map((image, index) => (
+          {images.map((image, index) => (
             <div key={index} className="slide">
               <img src={image} alt={`slide-${index}`} />
             </div>

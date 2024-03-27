@@ -2,6 +2,9 @@ import React from "react";
 import "./ContactForm.css";
 
 export default function ContactForm() {
+  const submitHandler=()=>{
+    console.log('submit');
+  }
   return (
     <div className="group-3">
       <div className="contact-form-details">
@@ -28,7 +31,7 @@ export default function ContactForm() {
           </div>
         </div>
 
-        <button className="submit">Submit</button>
+        <button className="submit" onClick={submitHandler}>Submit</button>
       </div>
 
       <div className="group-892">

@@ -178,4 +178,13 @@ p {
   .group-892 {
     display: none;
   }
+  .group-3{
+    width: 70%;
+  }
+  .contact-form-details{
+    width: 80%;
+  }
+  .info{
+    font-size: 10px;
+  }
 }
