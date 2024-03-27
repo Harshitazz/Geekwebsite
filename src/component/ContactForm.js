@@ -1,7 +1,23 @@
-import React from "react";
+import React ,{useState}from "react";
 import "./ContactForm.css";
 
 export default function ContactForm() {
+  const [email, setEmail] = useState("");
+  const [emailValid, setEmailValid] = useState(true); // Initially assuming email is valid
+
+  const handleEmailChange = (e) => {
+    const inputValue = e.target.value;
+    setEmail(inputValue);
+
+    // Regular expression for validating email format
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    // If input is not empty, test against the regex pattern
+    // Otherwise, reset the email validity to true
+    setEmailValid(
+      inputValue.trim() === "" ? true : emailRegex.test(inputValue)
+    );
+  };
   const submitHandler=()=>{
     console.log('submit');
   }
@@ -24,7 +40,12 @@ export default function ContactForm() {
             <div class="sphere2" style={{ left: "-45%" }}></div>
           </div>
           <div className="frame-12">
-            <input placeholder="EMAIL" className="info" />
+          <input
+              placeholder="EMAIL"
+              className={`info ${!emailValid ? "invalid" : ""}`}
+              // Add onChange event handler for email input
+              onChange={handleEmailChange}
+            />
           </div>
           <div className="frame-14">
             <input placeholder="MESSAGE" className="info" />
