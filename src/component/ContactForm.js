@@ -7,7 +7,7 @@ export default function ContactForm() {
   }
   return (
     <div className="group-3">
-      <div className="contact-form-details">
+      <form className="contact-form-details" >
         <div className="section-heading ">
           <p className="about-us ">Contact Form</p>
           <div className="underline"></div>
@@ -32,7 +32,7 @@ export default function ContactForm() {
         </div>
 
         <button className="submit" onClick={submitHandler}>Submit</button>
-      </div>
+      </form>
 
       <div className="group-892">
         <p className="ask-aquestion">Ask a Question</p>

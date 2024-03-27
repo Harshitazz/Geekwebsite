@@ -318,7 +318,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   gap: var(--gap-53xl);
-  min-height: 814px;
+  /* min-height: 600px; */
   flex-shrink: 0;
   text-align: left;
   font-size: var(--font-size-109xl);
@@ -433,5 +433,8 @@ p {
   .feature-divider-icon{
     visibility: hidden;
     height: 1rem;
+  }
+  .framecontainer{
+    margin-bottom: 2rem;
   }
 }
