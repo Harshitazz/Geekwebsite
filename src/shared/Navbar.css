@@ -175,7 +175,15 @@
     color: #34e6f7;
   }
 
+@media screen and (max-width:553px){
+  .nav-item-parent{
+    gap: 0 16px;
+  }
+  .navbar6{
+    width: auto;
+  }
 
+}
   @media screen and (max-width: 480px) {
     .burger-menu {
       display: block;
@@ -185,6 +193,10 @@
     .nav-items {
       display: none; /* Hide navigation links by default on smaller screens */
     }
+    .navbar6{
+      width: auto;
+    }
+    
   }
  
   

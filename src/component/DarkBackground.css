@@ -394,6 +394,14 @@ p {
   .features{
     width: 100%;
   }
+  .sphere1{
+    width: 50px;
+    height: 50px;
+  }
+  .sphere2{
+    width: 50px;
+    height: 50px;
+  }
   
 }
 @media screen and (max-width: 480px) {
@@ -437,4 +445,20 @@ p {
   .framecontainer{
     margin-bottom: 2rem;
   }
+}
+@media screen and (max-width: 480px){
+.geek-room{
+  font-size: 1.5rem;
+line-height: normal;
+margin: auto;
+width: max-content;letter-spacing: normal;
+}
+.display-text{
+  font-size: 1rem;
+  line-height: normal;
+}
+.ellipse-shape-icon{
+  width: 150px;
+  height: 150px;
+}
 }
