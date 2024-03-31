@@ -13,21 +13,21 @@ const Frame = () => {
             className="call-to-action"
             loading="lazy"
             alt=""
-            src={require("../images/Screenshot 2024-03-03 195851.png")}
+            src={require("../images/img1.png")}
              // Adjust the width here
           />
           <img
             className="call-to-action1"
             loading="lazy"
             alt=""
-            src={require("../images/Screenshot 2024-03-03 195851.png")}
+            src={require("../images/img2.png")}
             style={{ width: 'calc(23.33% - 10px)', height: '250px' , margin: "0px 20px"}} // Adjust the width here
           />
           <img
             className="frame-child6"
             loading="lazy"
             alt=""
-            src={require("../images/Screenshot 2024-03-03 195851.png")}
+            src={require("../images/img3.png")}
             style={{ width: 'calc(41.33% - 10px)', height: '300px' }} // Adjust the width here
           />
           </div>
@@ -67,21 +67,21 @@ const Frame = () => {
             className="call-to-action2"
             loading="lazy"
             alt=""
-            src={require("../images/Screenshot 2024-03-03 195851.png")}
+            src={require("../images/img1.png")}
             style={{ width: 'calc(33.33% - 10px)' , height: '290px'}} // Adjust the width here
           />
           <img
             className="call-to-action3"
             loading="lazy"
             alt=""
-            src={require("../images/Screenshot 2024-03-03 195851.png")}
+            src={require("../images/img5.png")}
             style={{ width: 'calc(33.33% - 10px)', height: '270px'  , margin: "0px 15px" }} // Adjust the width here
           />
           <img
             className="call-to-action4"
             loading="lazy"
             alt=""
-            src={require("../images/Screenshot 2024-03-03 195851.png")}
+            src={require("../images/img1.png")}
             style={{ width: 'calc(33.33% - 10px)', height: '290px' }} // Adjust the width here
           />
         </div>

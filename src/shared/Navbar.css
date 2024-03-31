@@ -196,6 +196,15 @@
     .navbar6{
       width: auto;
     }
+    .nav-item3{
+      display: none;
+    }
+    .nav-item2{
+      display: none;
+    }
+    .nav-item1{
+      display: none;
+    }
     
   }
  
