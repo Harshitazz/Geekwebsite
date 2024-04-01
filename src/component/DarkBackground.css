@@ -440,10 +440,7 @@ p {
   .feature,.feature1.feature2{
     justify-content: center;
   }
-  .feature-divider-icon{
-    visibility: hidden;
-    height: 1rem;
-  }
+  
   .framecontainer{
     margin-bottom: 2rem;
   }
@@ -470,6 +467,7 @@ width: max-content;letter-spacing: normal;
 }
 .feature{
   width: 30%;
+  display: block;
 }
 .k{
   margin: 0%;
@@ -480,6 +478,7 @@ width: max-content;letter-spacing: normal;
 }
 .team-members{
   font-size: 0.7rem;
+  text-align: center;
 }
 .features{
   margin: 10px;
