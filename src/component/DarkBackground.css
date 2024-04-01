@@ -394,6 +394,7 @@ p {
   .features{
     width: 100%;
   }
+  
   .sphere1{
     width: 100px;
     height: 100px;
@@ -417,10 +418,7 @@ p {
     font-size: 3rem;
     line-height: normal;
 }
-.ellipse-shape-icon{
-  width: 200px;
-  height: 200px;
-}
+
   .display-text {
     font-size: var(--font-size-8xl);
   }
@@ -433,12 +431,10 @@ p {
     height: auto;
     justify-content: center;
   }
-  .features{
-    display: inline;
-  }.features-pill{
+  .features-pill{
     justify-content: normal;
     border-radius: 50px;
-    width: 60%;
+    /* width: 60%; */
   }
   .feature,.feature1.feature2{
     justify-content: center;
@@ -452,18 +448,37 @@ p {
   }
 }
 @media screen and (max-width: 480px){
+  .features-frame{
+    display: block;
+  }
+  .text-w-image-container{
+    display: block;
+  }
 .geek-room{
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 line-height: normal;
 margin: auto;
 width: max-content;letter-spacing: normal;
 }
 .display-text{
-  font-size: 1rem;
+  /* font-size: 1rem; */
   line-height: normal;
+  text-align: center;
+  width: max-content;
+  margin: auto;
 }
-.ellipse-shape-icon{
-  width: 150px;
-  height: 150px;
+.feature{
+  width: 30%;
 }
+.k{
+  margin: 0%;
+  font-size: 1rem;
+}
+.section-title{
+  width: 90%;
+}
+.team-members{
+  font-size: 0.7rem;
+}
+
 }
