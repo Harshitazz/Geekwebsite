@@ -8,6 +8,7 @@ import image3 from '../logo.svg'
 import Carousel from "./Carousel";
 import Frame from "./Frame";
 import ContactForm from "./ContactForm";
+import Section from "./section";
 
 const DarkBackground = () => {
   const images = [image1,image2,image3];
@@ -61,7 +62,7 @@ const DarkBackground = () => {
                 
               />
               <div className="feature">
-                <b className="k"><IncreasingNumber stoppingNumber={120} speed={40} />+</b>
+                <b className="k"><IncreasingNumber stoppingNumber={200} speed={25} />+</b>
                 <div className="team-members">
                   <p className="team">Team</p>
                   <p className="members">Members</p>
@@ -70,8 +71,9 @@ const DarkBackground = () => {
             </div>
           </div>
         </div>
-        
+        <div><Section/></div>
       </div>
+      
       
     </div>
     <div className="framecontainer">
