@@ -434,6 +434,7 @@ p {
   .features-pill{
     justify-content: normal;
     border-radius: 50px;
+    margin: 10px;
     /* width: 60%; */
   }
   .feature,.feature1.feature2{
@@ -479,6 +480,9 @@ width: max-content;letter-spacing: normal;
 }
 .team-members{
   font-size: 0.7rem;
+}
+.features{
+  margin: 10px;
 }
 
 }

@@ -126,7 +126,7 @@
 
 
 
-@media screen and (max-width: 450px){
+@media screen and (max-width: 546px){
   .upper{
     /* visibility: collapse; */
     display: inline;
@@ -159,6 +159,10 @@
   }
   .frame-root{
     height: 300px;
+    
+      border-radius: 20px;
+        border: none;
+    
   }
   .center-div{
     width: auto;
@@ -175,8 +179,5 @@
 }
 
 @media screen and (max-width: 450px){
-.frame-root{
-  border-radius: 20px;
-    border: none;
-}
+
 }
