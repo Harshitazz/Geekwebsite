@@ -7,18 +7,18 @@ import {
   Navigate,
   Routes
 } from "react-router-dom";
+import Footer from './shared/Footer';
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-          
           <Route exact path="/about" />
           <Route exact path="/contact"  />
           <Route exact path="/achievment"  />
           <Route exact path="/"  element={<Home/>}/>
       </Routes>
-      
+      <Footer/>
     </BrowserRouter>
   );
 }
