@@ -9,6 +9,7 @@ import Carousel from "./Carousel";
 import Frame from "./Frame";
 import ContactForm from "./ContactForm";
 import Section from "./section";
+import Faq from "./Faq";
 import AboutSection from "./About";
 
 const DarkBackground = () => {
@@ -81,9 +82,11 @@ const DarkBackground = () => {
     <div className="framecontainer">
     <Frame/>
     </div>
+    <Faq/>
     <div className="framecontainer">    
       <ContactForm/>
     </div>
+    
     </>
   );
 };

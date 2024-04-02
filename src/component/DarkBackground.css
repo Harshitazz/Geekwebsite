@@ -8,11 +8,10 @@ p {
 .framecontainer{
   width: 100%;
   /* background-color: aliceblue; */
-  height: 800px;
+  height: auto;
   display: flex;
   align-items: center;
-  margin: auto;
-  justify-content: center;
+  margin: 10rem auto;  justify-content: center;
 }
 
 .sphere2 {
@@ -442,7 +441,8 @@ p {
   }
   
   .framecontainer{
-    margin-bottom: 2rem;
+    margin: 5rem auto;
+
   }
 }
 @media screen and (max-width: 480px){
