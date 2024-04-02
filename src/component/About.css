@@ -1,0 +1,52 @@
+
+
+.aboutSection{
+   width: min(100%, 1000px);
+   color: white;
+   display: flex;
+   margin: 7rem auto;
+   display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: space-between;
+   font-family: sans-serif;
+   padding: 0 1.5rem;
+}
+
+
+.aboutSection .section-heading{
+   text-align: center;
+   font-weight: 500;
+   margin: 1rem 0 1.5rem;
+}
+.aboutSection .about-us{
+   padding: .2rem 0;
+}
+
+.aboutSection .logo{
+   width: 22rem;
+
+}
+
+.aboutSection .contentCont{
+   text-align: left;
+   flex: 1;
+   max-width: 480px;
+}
+
+.aboutSection .content{
+   font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+   .aboutSection {
+     flex-direction: column;
+     margin: 5rem auto;
+   }
+   .aboutSection .section-heading{
+      margin: 1rem auto 1.5rem;
+   }
+   .aboutSection .logo{
+      display: none;
+   }
+}
