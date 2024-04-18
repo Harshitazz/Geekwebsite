@@ -35,10 +35,7 @@ const DarkBackground = () => {
         </div>
       </div>
       <div class="sphere1"></div>
-      <div className="about-us-section2">
-      
-
-        <div className="section-title  ">
+      <div className="section-title  ">
           <div className="features-pill">
             <div className="features">
               <div className="feature">
@@ -73,6 +70,10 @@ const DarkBackground = () => {
             </div>
           </div>
         </div>
+      <div className="about-us-section2">
+      
+
+        
         <div><AboutSection /></div>
         <div><Section/></div>
       </div>

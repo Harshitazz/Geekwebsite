@@ -36,3 +36,9 @@
 .accordion-flush>.accordion-item>.accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
     background-color:#141516 ;
 }
+
+@media screen and (max-width: 480px){
+    .faq{
+        width:90%;
+    }
+}
