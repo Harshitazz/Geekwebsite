@@ -138,6 +138,9 @@
 
 
 @media screen and (max-width: 546px) {
+  .frame_header{
+    width: 90%;
+  }
 
   .join-us-for2 {
     font-weight: 400;
@@ -152,15 +155,15 @@
     /* grid-template-rows: repeat(3, var(--size)); */
   
     grid-auto-rows: var(--size);
-    gap: 5px;
+    gap: 12px;
     place-items: start center;
     margin-bottom: var(--size);
     width: 100%;
   }
   
   .grid-gallery img {
-    width: calc(var(--size) * 2);
-    height: calc(var(--size) * 2);
+    width: calc(var(--size) * 2.2);
+    height: calc(var(--size) * 2.2);
     object-fit: cover;
     grid-column: auto / span 2;
     border-radius: 5px;
