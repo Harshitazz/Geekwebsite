@@ -11,6 +11,7 @@ import ContactForm from "./ContactForm";
 import Section from "./section";
 import Faq from "./Faq";
 import AboutSection from "./About";
+import About from "../pages/About";
 
 const DarkBackground = () => {
   const images = [image1,image2,image3];
@@ -70,14 +71,7 @@ const DarkBackground = () => {
             </div>
           </div>
         </div>
-      <div className="about-us-section2">
-      
-
-        
-        <div><AboutSection /></div>
-        <div><Section/></div>
-      </div>
-      
+      <About/>
       
     </div>
     <div className="framecontainer">
