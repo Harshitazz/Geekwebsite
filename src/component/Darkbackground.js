@@ -11,6 +11,7 @@ import ContactForm from "./ContactForm";
 import Section from "./section";
 import Faq from "./Faq";
 import AboutSection from "./About";
+import BGSphere from "./BGSphere";
 
 const DarkBackground = () => {
   const images = [image1,image2,image3];
@@ -25,7 +26,7 @@ const DarkBackground = () => {
           <p className="geek-room">GEEK ROOM</p>
       <p className="display-text">Learn. Connect. Grow.</p>
           </div>
-          <div class="sphere2"></div>
+          <BGSphere width={'415px'} height={'448px'} x={'85%'} y={'60%'} color={'rgba(0, 172, 180, 0.5)'}/>
           <div
             className="ellipse-shape-icon">
               <Carousel images={images} interval={2000} />
@@ -34,7 +35,7 @@ const DarkBackground = () => {
           
         </div>
       </div>
-      <div class="sphere1"></div>
+      <BGSphere width={'300px'} height={'300px'} x={'15%'} y={'75%'} color={'rgba(241, 90, 34, 0.5)'}/>
       <div className="section-title  ">
           <div className="features-pill">
             <div className="features">

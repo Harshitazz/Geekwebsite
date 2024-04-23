@@ -14,34 +14,6 @@ p {
   margin: 10rem auto;  justify-content: center;
 }
 
-.sphere2 {
-    position: absolute;
-    /* top: 15%; */
-    right: 2%;
-    /* transform: translate(-50%, -50%); */
-    width: 415px;
-    height: 448px;
-    border-radius: 50%;
-    filter: blur(100px);
-    background-color: rgba(0, 172, 180, 0.5);
-    /* filter: blur(30px); */
-    overflow: hidden;
-    z-index: -1;
-  }
-  .sphere1 {
-    position: absolute;
-     bottom: 5%; 
-    left: 5%;
-    /* transform: translate(-50%, -50%); */
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    filter: blur(100px);
-    background-color: rgba(241, 90, 34, 0.5);
-    /* filter: blur(30px); */
-    overflow: hidden;
-    z-index: -1;
-  }
 .display-heading {
   display: flex;
   flex-direction: column;
