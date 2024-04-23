@@ -2,9 +2,9 @@ import React from "react";
 
 import "./DarkBackground.css";
 import IncreasingNumber from "./IncreasingNumber";
-import image1 from '../images/GR Logo.png';
-import image2 from '../images/Screenshot 2024-03-03 195851.png';
-import image3 from '../logo.svg'
+import image1 from '../images/img1.png';
+import image2 from '../images/img2.png';
+import image3 from '../images/img3.png'
 import Carousel from "./Carousel";
 import Frame from "./Frame";
 import ContactForm from "./ContactForm";
@@ -28,10 +28,10 @@ const DarkBackground = () => {
       <p className="display-text">Learn. Connect. Grow.</p>
           </div>
           <BGSphere width={'415px'} height={'448px'} x={'85%'} y={'60%'} color={'rgba(0, 172, 180, 0.5)'}/>
-          <div
+          {/* <div
             className="ellipse-shape-icon">
               <Carousel images={images} interval={2000} />
-            </div>
+            </div> */}
             
           
         </div>

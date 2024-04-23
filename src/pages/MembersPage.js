@@ -2,6 +2,11 @@ import MemberCard from "../component/MemberCard";
 import BGSphere from "../component/BGSphere";
 import './MembersPage.css'
 import teamData from '../config/teamData.json'
+import arnav from '../images/team_members/arnav.jpg'
+import manas from '../images/team_members/manas .jpg'
+import pratham from '../images/team_members/pratham_batra.jpg'
+
+
 
 function MembersPage(){
    return (
@@ -17,9 +22,9 @@ function MembersPage(){
          <div className="co-founders-wrap">
             <h2>Co-Founders</h2>
             <div className="co-founders">
-               <MemberCard name={'Manas Chopra'} title={'AI Head'} imageUrl={'https://randomuser.me/api/portraits/men/1.jpg'} linkedInUrl={'www.linkedin.com'} />
-               <MemberCard name={'Manas Chopra'} title={'AI Head'} imageUrl={'https://randomuser.me/api/portraits/men/4.jpg'} linkedInUrl={'www.linkedin.com'} isRedTheme={0}/>
-               <MemberCard name={'Manas Chopra'} title={'AI Head'} imageUrl={'https://randomuser.me/api/portraits/men/6.jpg'} linkedInUrl={'www.linkedin.com'} />
+               <MemberCard name={'Manas Chopra'} title={'AI Head'} imageUrl={manas} linkedInUrl={'https://www.linkedin.com/in/themanas95826/ '} />
+               <MemberCard name={'Arnav Gupta'} title={'AI Head'} imageUrl={arnav} linkedInUrl={'https://www.linkedin.com/in/arnav-gupta-437a66256/ '} isRedTheme={0}/>
+               <MemberCard name={'Pratham Batra'} title={'AI Head'} imageUrl={pratham} linkedInUrl={'https://www.linkedin.com/in/pratham1908/ '} />
             </div>
          </div>
 
@@ -28,7 +33,7 @@ function MembersPage(){
             <h2>Heads Of Departments</h2>
             <div className="departments">
                {Object.keys(teamData).map(dep => (
-                  <Department name={dep} />
+                  <Department name={dep}  />
                ))}
             </div>
          </div>

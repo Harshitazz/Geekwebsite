@@ -22,7 +22,8 @@ p {
   width: 40%;
   /* height: 204px; */
   box-sizing: border-box;
-  margin: 8% auto
+  margin: auto;
+  align-items: center;
 }
 .geek-room {
     color: rgba(255, 255, 255, 1);
@@ -31,6 +32,7 @@ p {
     font-family: Gilroy-UltraLight, sans-serif;
     /* font-weight: 400; */
     letter-spacing: -2.56px;
+    margin: auto;
 }
 
 .display-text {
@@ -310,6 +312,7 @@ p {
   }
   .display-heading{
     /* margin:0 */
+    
   }
   .ellipse-shape-icon{
     width: 300px;

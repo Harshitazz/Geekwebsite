@@ -1,100 +1,91 @@
+
+
+
 {
    "Artificial Intelligence":[
       {
-         "name": "John Doe",
-         "title": "Software Engineer",
-         "imageUrl": "https://randomuser.me/api/portraits/men/1.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": "Arnav Kohli",
+         
+         "imageUrl": "/arnav.png",
+         "linkedInUrl": "https://www.linkedin.com/in/arnav-kohli/"
       },
       {
-         "name": "Jane Smith",
-         "title": "Web Developer",
+         "name": "Siddhartha Verma",
+         
          "imageUrl": "https://randomuser.me/api/portraits/women/2.jpg",
          "linkedInUrl": "https://www.linkedin.com/"
       }
    ],
    "Development":[
       {
-         "name": "Alice Johnson",
-         "title": "Product Manager",
-         "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": "Aditya Singh",
+         "imageUrl": "/aditya.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/adiii11/ "
       },
       {
-         "name": "Bob Brown",
-         "title": "UI/UX Designer",
+         "name": "Tanmay Arora",
          "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "linkedInUrl": "https://www.linkedin.com/in/tanmaycode1/ "
       }
    ],
    "DSA":[
       {
-         "name": "Sarah Wilson",
-         "title": "Frontend Developer",
-         "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": "Mayank Mahajan",
+         "imageUrl": "/mayank.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/mayankpmahajan/ "
       },
       {
-         "name": "Mike Davis",
-         "title": "Backend Developer",
-         "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": "Vedant Nagwanshi",
+         "imageUrl": "/vedat.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/vedant-nagwanshi/ "
       }
    ],
    "Emerging Technologies":[
       {
-         "name": "Emily Clark",
-         "title": "Data Scientist",
-         "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": "Archit Kohli",
+         "imageUrl": "/archit.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/archit-kohli/"
       },
       {
-         "name": "Alex Rodriguez",
-         "title": "DevOps Engineer",
-         "imageUrl": "https://randomuser.me/api/portraits/men/8.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": "Harshita Gupta",
+         "imageUrl": "/harshita.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/harshita-gupta-03b6b125b/ "
       }
    ],
    "Event Management":[
       {
-         "name": "Olivia Moore",
-         "title": "Project Manager",
-         "imageUrl": "https://randomuser.me/api/portraits/women/9.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": "Rudra Pratap Dash",
+         "imageUrl": "/rudra.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/rudra-pratap-dash-b2ab16267 "
       },
       {
-         "name": "Charlie Thompson",
-         "title": "Software Engineer",
-         "imageUrl": "https://randomuser.me/api/portraits/men/10.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": " Akshay Kumar Sharma",
+         "imageUrl": "/akshay.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/akshay-kumar-sharma-devvoyager "
       }
    ],
    "PR & Sponsorship":[
       {
-         "name": "Ella Scott",
-         "title": "Web Developer",
-         "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "name": "Vibhor Aggrawal",
+         "imageUrl": "/vibhor.jpg",
+         "linkedInUrl": "https://www.linkedin.com/in/vibhor-aggarwal-726095189 "
       },
       {
-         "name": "David Martinez",
-         "title": "Product Manager",
+         "name": "Suhani Nagpal",
          "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "linkedInUrl": " https://www.linkedin.com/in/suhani-nagpal072/ "
       }
    ],
    "Publicity and Design":[
       {
-         "name": "Grace Baker",
-         "title": "UI/UX Designer",
+         "name": "Saksham Verma",
          "imageUrl": "https://randomuser.me/api/portraits/women/13.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "linkedInUrl": "https://www.linkedin.com/in/saksham-verma-a9390b256/ "
       },
       {
-         "name": "James Lee",
-         "title": "Frontend Developer",
+         "name": "Garima Gupta",
          "imageUrl": "https://randomuser.me/api/portraits/men/14.jpg",
-         "linkedInUrl": "https://www.linkedin.com/"
+         "linkedInUrl": " https://www.linkedin.com/in/garima-gupta-724213253/ "
       }
    ]
 }

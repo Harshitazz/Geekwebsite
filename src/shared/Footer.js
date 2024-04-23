@@ -18,7 +18,7 @@ function Footer() {
             <div className="col-lg-6 col-md-6">
               <div className="row">
                 <div className="col-md-6">
-                  <h5 className="text-white mb-3 heading">Links</h5>
+                  <h5 className="text-white mb-3 heading">Pages</h5>
                   <ul className="list-unstyled text-muted">
                     <li><Link to="/" className="footer-link">Home</Link></li>
                     <li><Link to="/about" className="footer-link">About Us</Link></li>
@@ -27,10 +27,10 @@ function Footer() {
                   </ul>
                 </div>
                 <div className="col-md-6">
-                  <h5 className="text-white mb-3 heading">Contact</h5>
+                  <h5 className="text-white mb-3 heading">Social Links</h5>
                   <ul className="list-unstyled">
                     <li>
-                      <p className="footer-link">Maharaja Surajmal Institute of Technology, C4 Market, Fire Station Road, Janakpuri, New Delhi - 110058</p>
+                      {/* <p className="footer-link"></p> */}
                     </li>
                     <li style={{ display: 'flex', alignItems: 'center', paddingTop: '20px' }}>
                       <a href="https://www.linkedin.com/company/geekr00m/" className="footer-link p-2">
