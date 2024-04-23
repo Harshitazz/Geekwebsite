@@ -1,21 +1,24 @@
 .nav-item a,
 .nav-item1 a,
 .nav-item2 a,
-.nav-item3 a {
+.nav-item3 a,
+.nav-item4 a {
   text-decoration: none;
   color: rgb(249, 252, 254); /* Change this to your desired text color */
 }
 .nav-item a:hover,
 .nav-item1 a:hover,
 .nav-item2 a:hover,
-.nav-item3 a:hover {
+.nav-item3 a:hover,
+.nav-item4 a:hover {
   color: #3dd3f0; /* Change this to your desired text color on hover */
 }
 
 .nav-item.active a,
 .nav-item1.active a,
 .nav-item2.active a,
-.nav-item3.active a {
+.nav-item3.active a,
+.nav-item4.active a {
   font-weight: bold; /* Change this or add other styling for active link */
 }
 
@@ -203,6 +206,9 @@
       display: none;
     }
     .nav-item1{
+      display: none;
+    }
+    .nav-item4{
       display: none;
     }
     

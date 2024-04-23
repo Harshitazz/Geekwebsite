@@ -1,0 +1,100 @@
+{
+   "Artificial Intelligence":[
+      {
+         "name": "John Doe",
+         "title": "Software Engineer",
+         "imageUrl": "https://randomuser.me/api/portraits/men/1.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      },
+      {
+         "name": "Jane Smith",
+         "title": "Web Developer",
+         "imageUrl": "https://randomuser.me/api/portraits/women/2.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      }
+   ],
+   "Development":[
+      {
+         "name": "Alice Johnson",
+         "title": "Product Manager",
+         "imageUrl": "https://randomuser.me/api/portraits/women/3.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      },
+      {
+         "name": "Bob Brown",
+         "title": "UI/UX Designer",
+         "imageUrl": "https://randomuser.me/api/portraits/men/4.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      }
+   ],
+   "DSA":[
+      {
+         "name": "Sarah Wilson",
+         "title": "Frontend Developer",
+         "imageUrl": "https://randomuser.me/api/portraits/women/5.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      },
+      {
+         "name": "Mike Davis",
+         "title": "Backend Developer",
+         "imageUrl": "https://randomuser.me/api/portraits/men/6.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      }
+   ],
+   "Emerging Technologies":[
+      {
+         "name": "Emily Clark",
+         "title": "Data Scientist",
+         "imageUrl": "https://randomuser.me/api/portraits/women/7.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      },
+      {
+         "name": "Alex Rodriguez",
+         "title": "DevOps Engineer",
+         "imageUrl": "https://randomuser.me/api/portraits/men/8.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      }
+   ],
+   "Event Management":[
+      {
+         "name": "Olivia Moore",
+         "title": "Project Manager",
+         "imageUrl": "https://randomuser.me/api/portraits/women/9.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      },
+      {
+         "name": "Charlie Thompson",
+         "title": "Software Engineer",
+         "imageUrl": "https://randomuser.me/api/portraits/men/10.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      }
+   ],
+   "PR & Sponsorship":[
+      {
+         "name": "Ella Scott",
+         "title": "Web Developer",
+         "imageUrl": "https://randomuser.me/api/portraits/women/11.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      },
+      {
+         "name": "David Martinez",
+         "title": "Product Manager",
+         "imageUrl": "https://randomuser.me/api/portraits/men/12.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      }
+   ],
+   "Publicity and Design":[
+      {
+         "name": "Grace Baker",
+         "title": "UI/UX Designer",
+         "imageUrl": "https://randomuser.me/api/portraits/women/13.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      },
+      {
+         "name": "James Lee",
+         "title": "Frontend Developer",
+         "imageUrl": "https://randomuser.me/api/portraits/men/14.jpg",
+         "linkedInUrl": "https://www.linkedin.com/"
+      }
+   ]
+}
