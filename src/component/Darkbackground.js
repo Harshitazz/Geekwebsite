@@ -11,11 +11,8 @@ import ContactForm from "./ContactForm";
 import Section from "./section";
 import Faq from "./Faq";
 import AboutSection from "./About";
-<<<<<<< HEAD
 import BGSphere from "./BGSphere";
-=======
 import About from "../pages/About";
->>>>>>> f437410eb64d4142fa57f10d3063db4926b2bdd4
 
 const DarkBackground = () => {
   const images = [image1,image2,image3];
