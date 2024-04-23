@@ -27,7 +27,7 @@ const DarkBackground = () => {
           <p className="geek-room">GEEK ROOM</p>
       <p className="display-text">Learn. Connect. Grow.</p>
           </div>
-          <BGSphere width={'415px'} height={'448px'} x={'85%'} y={'60%'} color={'rgba(0, 172, 180, 0.5)'}/>
+          <BGSphere className='sphere1' width={'415px'} height={'448px'} x={'85%'} y={'60%'} color={'rgba(0, 172, 180, 0.5)'}/>
           {/* <div
             className="ellipse-shape-icon">
               <Carousel images={images} interval={2000} />

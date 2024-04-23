@@ -1,9 +1,32 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 function BGSphere({ width, height, x, y, color }) {
+   const [sphereWidth, setSphereWidth] = useState(width);
+   
+
+   useEffect(() => {
+      const handleResize = () => {
+         // Update the width of the sphere based on the viewport width
+         if (window.innerWidth <= 700) {
+            setSphereWidth('150px');
+         } else {
+            setSphereWidth(width);
+         }
+      };
+
+      // Add event listener for window resize
+      window.addEventListener('resize', handleResize);
+
+      // Initial call to set width
+      handleResize();
+
+      // Clean up the event listener
+      return () => window.removeEventListener('resize', handleResize);
+   }, [width]);
+
    return (
       <div className="bgsphere" style={{
-         width: width,
+         width: sphereWidth,
          height: height,
          position: 'absolute',
          left: x,
@@ -13,28 +36,9 @@ function BGSphere({ width, height, x, y, color }) {
          filter: 'blur(110px)',
          overflow: 'hidden',
          zIndex: -1,
-         transform: 'translate(-50%, -50%)'
+         transform: 'translate(-50%, -50%)',
       }}></div>
    )
 }
-
-// Use template literals to embed the CSS media query within the JavaScript file
-const styles = `
-  @media (max-width: 700px) {
-    .bgsphere {
-      display:none
-    }
-  }
-`;
-
-// Inject the styles into the document using a <style> tag
-function addStyles() {
-  const styleEl = document.createElement('style');
-  styleEl.appendChild(document.createTextNode(styles));
-  document.head.appendChild(styleEl);
-}
-
-// Call the function to inject styles when the component file is executed
-addStyles();
 
 export default BGSphere;

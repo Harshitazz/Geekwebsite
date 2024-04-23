@@ -337,7 +337,7 @@ p {
 }
 @media screen and (max-width: 794px) {
   .text-w-image-container{
-    height: fit-content;
+    /* height: fit-content; */
   }
   .active-members-feature {
     max-width: 100%;
@@ -424,9 +424,7 @@ p {
   .features-frame{
     display: block;
   }
-  .text-w-image-container{
-    display: block;
-  }
+ 
 .geek-room{
   /* font-size: 1.5rem; */
 line-height: normal;
