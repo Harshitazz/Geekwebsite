@@ -8,6 +8,7 @@ import {
   Routes
 } from "react-router-dom";
 import Footer from './shared/Footer';
+import Event from './pages/Event';
 function App() {
   return (
     <BrowserRouter>
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/contact"  />
           <Route exact path="/achievment"  />
           <Route exact path="/"  element={<Home/>}/>
+          <Route exact path="/events"  element={<Event/>} />
       </Routes>
       <Footer/>
     </BrowserRouter>
