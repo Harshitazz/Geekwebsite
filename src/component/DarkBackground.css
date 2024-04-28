@@ -19,7 +19,7 @@ p {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 40%;
+  /* width: 40%; */
   /* height: 204px; */
   box-sizing: border-box;
   margin: auto;
@@ -355,7 +355,7 @@ p {
   }
   .geek-room {
     font-size: 4rem;
-    width: min-content;
+    /* width: min-content; */
     line-height: 70px;
   }
   .display-text {
