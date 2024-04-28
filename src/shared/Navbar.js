@@ -80,6 +80,17 @@ const Navbar = () => {
             </NavLink>
             <div className={activeNavLink === "contact" ? "underline" : ""} />
           </div>
+          <div className="nav-item4">
+            <NavLink
+              exact
+              to="/team"
+              className={activeNavLink === "team" ? "home active" : "home"}
+              onClick={() => handleNavLinkClick("team")}
+            >
+              TEAM
+            </NavLink>
+            <div className={activeNavLink === "team" ? "underline" : ""} />
+          </div>
         </div>
       </div>
 
@@ -96,6 +107,9 @@ const Navbar = () => {
           </NavLink>
           <NavLink exact to="/contact" onClick={() => handleNavLinkClick("contact")}>
             CONTACT
+          </NavLink>
+          <NavLink exact to="/team" onClick={() => handleNavLinkClick("team")}>
+            TEAM
           </NavLink>
         </div>
       </div>

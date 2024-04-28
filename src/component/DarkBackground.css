@@ -8,41 +8,12 @@ p {
 .framecontainer{
   width: 100%;
   /* background-color: aliceblue; */
-  height: 800px;
+  height: auto;
   display: flex;
   align-items: center;
-  margin: auto;
-  justify-content: center;
+  margin: 10rem auto;  justify-content: center;
 }
 
-.sphere2 {
-    position: absolute;
-    /* top: 15%; */
-    right: 2%;
-    /* transform: translate(-50%, -50%); */
-    width: 415px;
-    height: 448px;
-    border-radius: 50%;
-    filter: blur(100px);
-    background-color: rgba(0, 172, 180, 0.5);
-    /* filter: blur(30px); */
-    overflow: hidden;
-    z-index: -1;
-  }
-  .sphere1 {
-    position: absolute;
-     bottom: 5%; 
-    left: 5%;
-    /* transform: translate(-50%, -50%); */
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    filter: blur(100px);
-    background-color: rgba(241, 90, 34, 0.5);
-    /* filter: blur(30px); */
-    overflow: hidden;
-    z-index: -1;
-  }
 .display-heading {
   display: flex;
   flex-direction: column;
@@ -51,7 +22,8 @@ p {
   width: 40%;
   /* height: 204px; */
   box-sizing: border-box;
-  margin: 8% auto
+  margin: auto;
+  align-items: center;
 }
 .geek-room {
     color: rgba(255, 255, 255, 1);
@@ -60,6 +32,7 @@ p {
     font-family: Gilroy-UltraLight, sans-serif;
     /* font-weight: 400; */
     letter-spacing: -2.56px;
+    margin: auto;
 }
 
 .display-text {
@@ -339,6 +312,7 @@ p {
   }
   .display-heading{
     /* margin:0 */
+    
   }
   .ellipse-shape-icon{
     width: 300px;
@@ -363,7 +337,7 @@ p {
 }
 @media screen and (max-width: 794px) {
   .text-w-image-container{
-    height: fit-content;
+    /* height: fit-content; */
   }
   .active-members-feature {
     max-width: 100%;
@@ -440,21 +414,17 @@ p {
   .feature,.feature1.feature2{
     justify-content: center;
   }
-  .feature-divider-icon{
-    visibility: hidden;
-    height: 1rem;
-  }
+  
   .framecontainer{
-    margin-bottom: 2rem;
+    margin: 5rem auto;
+
   }
 }
 @media screen and (max-width: 480px){
   .features-frame{
     display: block;
   }
-  .text-w-image-container{
-    display: block;
-  }
+ 
 .geek-room{
   /* font-size: 1.5rem; */
 line-height: normal;
@@ -470,6 +440,7 @@ width: max-content;letter-spacing: normal;
 }
 .feature{
   width: 30%;
+  display: block;
 }
 .k{
   margin: 0%;
@@ -480,6 +451,7 @@ width: max-content;letter-spacing: normal;
 }
 .team-members{
   font-size: 0.7rem;
+  text-align: center;
 }
 .features{
   margin: 10px;

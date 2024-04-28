@@ -8,19 +8,25 @@ import {
   Routes
 } from "react-router-dom";
 import Footer from './shared/Footer';
+<<<<<<< HEAD
 import Event from './pages/Event';
+=======
+import MembersPage from './pages/MembersPage';
+import About from './pages/About';
+>>>>>>> 62a28bb470191500abe573fde219c9cb7942a2b9
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
       <Routes>
-          <Route exact path="/about" />
+          <Route exact path="/team" element={<MembersPage/>} />
+          <Route exact path="/about" element={<About/>} />
           <Route exact path="/contact"  />
           <Route exact path="/achievment"  />
           <Route exact path="/"  element={<Home/>}/>
           <Route exact path="/events"  element={<Event/>} />
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }
