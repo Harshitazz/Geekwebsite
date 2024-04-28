@@ -24,8 +24,8 @@ const Frame = () => {
       </div>
 
       <div className="frame_header">
-      <article className="grid-gallery">
-          <img src={require("../images/img1.jpeg")} alt="description of picture 1" />
+        <article className="grid-gallery">
+           <img src={require("../images/img1.jpeg")} alt="description of picture 1" />
           <img src={require("../images/img12.JPG")} alt="description of picture 2" />
           <img src={require("../images/img5.jpeg")} alt="description of picture 3" />
           <img src={require("../images/img16.JPG")} alt="description of picture 4" />
