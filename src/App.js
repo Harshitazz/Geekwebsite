@@ -8,12 +8,12 @@ import {
   Routes
 } from "react-router-dom";
 import Footer from './shared/Footer';
-<<<<<<< HEAD
+
 import Event from './pages/Event';
-=======
+
 import MembersPage from './pages/MembersPage';
 import About from './pages/About';
->>>>>>> 62a28bb470191500abe573fde219c9cb7942a2b9
+
 function App() {
   return (
     <BrowserRouter>

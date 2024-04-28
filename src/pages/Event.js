@@ -31,19 +31,24 @@ export default function Event() {
 </div>
 
 <div className='container'>
-<div className="card" style={{width: "18rem"}}>
-  {data.map(detail => (
-    <div className='grid grid-col-5'>
-    <div className="card-body col-span-4">
-      <img src={detail.image_url} className="card-img-top" alt={detail.heading}/>
-      <h5 className="card-title text-white">{detail.heading}</h5>
-      <p className="card-text text-white">{detail.description}</p>
-      <a href="#" className="btn btn-outline-danger button1">Go somewhere</a>
+  <div className="card" >
+    <div className='row row-cols-1 row-cols-md-3'> {/* Use row-cols classes for responsive grid */}
+      {data.map((detail, index) => (
+        <div className='col-md-4 col-12' key={index} > {/* Each grid will take 1 column on extra small devices and 3 columns on medium devices and above */}
+          <div className='grid grid-col-5'>
+            <div className="card-body col-span-4">
+              <img src={detail.image_url} className="card-img-top" alt={detail.heading}/>
+              <h5 className="card-title text-white">{detail.heading}</h5>
+              <p className="card-text text-white">{detail.description}</p>
+              <a href="#" className="btn btn-outline-danger button1">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
-    </div>
-  ))}
+  </div>
 </div>
-</div>
+
 
     </>
   )
