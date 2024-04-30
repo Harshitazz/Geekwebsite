@@ -1,6 +1,7 @@
 import React from 'react'
 import './Event.css'
 import data from './eventData.json'
+import arnav from '../images/img10.JPG'
 
 export default function Event() {
   return (
@@ -37,7 +38,10 @@ export default function Event() {
         <div className='col-md-4 col-12' key={index} > {/* Each grid will take 1 column on extra small devices and 3 columns on medium devices and above */}
           <div className='grid grid-col-5'>
             <div className="card-body col-span-4">
-              <img src={detail.image_url} className="card-img-top" alt={detail.eventName}/>
+
+              <div style={{height:'200px',overflow:'hidden'}}>
+              <img src={require(`../images/eventpic/${detail.image_url}`)} className="card-img-top" alt={detail.eventName}/>
+              </div>
               <p className="card-date text-danger">{detail.date}</p>
               <h5 className="card-title text-white">{detail.eventName}</h5>
               <p className="card-text text-white">{detail.description}</p>
