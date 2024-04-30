@@ -10,7 +10,7 @@ p {
   background-color: rgb(255, 255, 255, 0.15);
   border-radius: 16px;
   position: relative;
-  width: 948.41px;
+  width: 80%;
   height: 345px;
   box-sizing: border-box;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -62,7 +62,7 @@ p {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 36px;
-  width: 486px;
+  width: 40%;
   height: 208px;
   box-sizing: border-box;
 }
