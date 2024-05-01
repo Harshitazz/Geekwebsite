@@ -12,7 +12,7 @@ const Frame = () => {
         <div className="join-us-for2">Join us for exciting</div>
         <div className="eventBtn">
           <div>
-            <NavLink exact to="/events" className="about-us7">
+            <NavLink exact to="/events" className="about-us7" style={{'textDecoration':'none'}}>
               EVENTS
             </NavLink>
             <div className="underline"></div>
