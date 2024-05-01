@@ -54,7 +54,7 @@ const Navbar = () => {
             </NavLink>
             <div className={activeNavLink === "about" ? "underline" : ""} />
           </div>
-          <div className="nav-item2">
+          {/* <div className="nav-item2">
             <NavLink
               exact
               to="/achievement"
@@ -79,7 +79,7 @@ const Navbar = () => {
               CONTACT
             </NavLink>
             <div className={activeNavLink === "contact" ? "underline" : ""} />
-          </div>
+          </div> */}
           <div className="nav-item4">
             <NavLink
               exact
@@ -102,12 +102,12 @@ const Navbar = () => {
           <NavLink exact to="/about" onClick={() => handleNavLinkClick("about")}>
             ABOUT
           </NavLink>
-          <NavLink exact to="/achievement" onClick={() => handleNavLinkClick("achievement")}>
+          {/* <NavLink exact to="/achievement" onClick={() => handleNavLinkClick("achievement")}>
             ACHIEVEMENT
           </NavLink>
           <NavLink exact to="/contact" onClick={() => handleNavLinkClick("contact")}>
             CONTACT
-          </NavLink>
+          </NavLink> */}
           <NavLink exact to="/team" onClick={() => handleNavLinkClick("team")}>
             TEAM
           </NavLink>

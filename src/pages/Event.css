@@ -6,7 +6,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
+.row{
+  row-gap: 10px;
+}
 .heading {
   font-family: Inter, sans-serif;
   font-weight: lighter;
@@ -160,6 +162,10 @@ body {
 
 .grid{
   margin: 20px;
+  border: 2px solid white;
+  min-height: 90%;
+  background: #333335ad;
+  border-radius: 10px;
 }
 .card-date{
   font-size: 10px;
