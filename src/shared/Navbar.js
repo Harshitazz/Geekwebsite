@@ -43,7 +43,7 @@ const Navbar = () => {
             </NavLink>
             <div className={activeNavLink === "home" ? "underline" : ""} />
           </div>
-          <div className="nav-item1">
+          {/* <div className="nav-item1">
             <NavLink
               exact
               to="/about"
@@ -53,7 +53,7 @@ const Navbar = () => {
               ABOUT
             </NavLink>
             <div className={activeNavLink === "about" ? "underline" : ""} />
-          </div>
+          </div> */}
           {/* <div className="nav-item2">
             <NavLink
               exact
@@ -68,18 +68,18 @@ const Navbar = () => {
             <div
               className={activeNavLink === "achievement" ? "underline" : ""}
             />
-          </div>
+          </div> */}
           <div className="nav-item3">
             <NavLink
               exact
-              to="/contact"
-              className={activeNavLink === "contact" ? "home active" : "home"}
-              onClick={() => handleNavLinkClick("contact")}
+              to="/events"
+              className={activeNavLink === "events" ? "home active" : "home"}
+              onClick={() => handleNavLinkClick("events")}
             >
-              CONTACT
+              EVENTS
             </NavLink>
-            <div className={activeNavLink === "contact" ? "underline" : ""} />
-          </div> */}
+            <div className={activeNavLink === "events" ? "underline" : ""} />
+          </div>
           <div className="nav-item4">
             <NavLink
               exact
@@ -99,8 +99,12 @@ const Navbar = () => {
           <NavLink exact to="/" onClick={() => handleNavLinkClick("home")}>
             HOME
           </NavLink>
-          <NavLink exact to="/about" onClick={() => handleNavLinkClick("about")}>
+          {/* <NavLink exact to="/about" onClick={() => handleNavLinkClick("about")}>
             ABOUT
+          </NavLink> */}
+
+          <NavLink exact to="/events" onClick={() => handleNavLinkClick("events")}>
+            EVENTS
           </NavLink>
           {/* <NavLink exact to="/achievement" onClick={() => handleNavLinkClick("achievement")}>
             ACHIEVEMENT

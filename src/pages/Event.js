@@ -26,7 +26,7 @@ export default function Event() {
               <p className="card-date text-danger">{detail.date}</p>
               <h5 className="card-title text-white">{detail.eventName}</h5>
               <p className="card-text text-white">{detail.description}</p>
-              <a href="#" className="btn btn-outline-danger button1">Learn more <i class="fa fa-arrow-right"></i></a>
+              <a href="#" className="btn btn-outline-danger button1" style={{marginTop:'20px'}}>Learn more <i class="fa fa-arrow-right"></i></a>
             </div>
           </div>
         </div>
